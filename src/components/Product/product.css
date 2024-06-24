@@ -1,0 +1,152 @@
+.product{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.new{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+}
+
+.icons_map{
+    position: absolute;
+    top: 10px;
+    left: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.img img{
+    width:300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.icons_map button{
+    background-color: transparent;
+    border: none;
+}
+
+.icons_map button img{
+    width: 20px;
+    height: 20px;
+}
+
+.icons_map button svg{
+    font-size: 20px;
+}
+
+
+.rating{
+    display: flex;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.price{
+    font-size:bold;
+    color:#006bff;
+    font-weight: 700;
+}
+
+.orange_rektangle{
+    border: 1px solid #ff9900;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+
+.btn_warpper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn_buy{
+    background-color: #006bff;
+    color: white;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_cart{
+    background-color:#00bfaf;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding:10px 15px;
+    border-radius: 5px;
+}
+
+.btn_buy:hover{
+    background-color: #0049b2;
+    color: #fff;
+}
+
+.btn_cart:hover{
+    background-color: #05a093;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.warpper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
