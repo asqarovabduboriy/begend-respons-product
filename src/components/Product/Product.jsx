@@ -9,7 +9,7 @@ import { FaCartShopping } from "react-icons/fa6";
 
 
 const Product = () => {
-  const { data, isLoading, error } = useGetProductsQuery({limit: 100});
+  const { data, isLoading, error } = useGetProductsQuery({limit: 150});
   let products = data?.data?.products?.map((product) => (
     <div className="product" key={product.id}>
          <div className="new"><span>Yangi</span></div>
@@ -42,7 +42,6 @@ const Product = () => {
     </div>
   ));
 
-  console.log(data?.data?.products);
   return (
     <>
       <div className="container">

@@ -21,8 +21,8 @@ const CreateProduct = () => {
     e.preventDefault();
     let form = new FormData();
     form.append("title", formdata.title);
-    form.append("price", formdata.price);
-    form.append("oldPrice", formdata.oldPrice);
+    form.append("price", +formdata.price);
+    form.append("oldPrice", +formdata.oldPrice);
     form.append("category", formdata.category);
     form.append("units", formdata.units);
     form.append("description", formdata.description);
