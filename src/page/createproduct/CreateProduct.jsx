@@ -26,7 +26,7 @@ const CreateProduct = () => {
     form.append("category", formdata.category);
     form.append("units", formdata.units);
     form.append("description", formdata.description);
-    form.append("info", JSON.stringify(formdata.info));
+    form.append("info", JSON.stringify({}));
 
     createProduct(form);
   };
